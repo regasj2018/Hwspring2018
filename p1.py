@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 first_name = raw_input("what is your first name?")
 
 last_name = raw_input("what is your last name?")
@@ -13,3 +14,5 @@ numberofcadets = 250
 
 ihavethreecats = False
 
+=======
+>>>>>>> c217abef6ff16d267a8229e04e6bbc7027f897d1
