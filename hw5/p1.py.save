@@ -1,0 +1,19 @@
+
+temperture = int(raw_input("enter temperture on the thermometer"))
+if(temperture > 96.0):
+	answer = raw_input("Are you warm?")
+	if(answer == "Yes"):
+		answer = raw_input("Try dressing up")
+		if(answer == "No"):
+			print("Hmph, you must be cold-blooded")
+else:
+		        print("Close to normal you may want to try again latter")
+if(temperture < 99.0):
+	answer = raw_input("Do you feel cold?")
+	if(answer == "Yes"):
+		print("You may be running a fever")
+		if(answer == "No"):
+			print("You must be warm-blooded")
+if(temperture == 98.6):
+	print("Congragulations you are normal and healthy")
+
