@@ -1,0 +1,5 @@
+
+type = int(raw_input("If you would like to enter an entire game enter 1, if you would like to enter a game play by play enter 2."))
+if(type == 1):
+	play = raw_input("Enter your score frame by frame seperated by a comma.")
+	

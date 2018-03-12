@@ -1,0 +1,19 @@
+type = int(raw_input("If you would like to enter an entire game enter 1, if you would like to enter a game play by play enter 2."))
+if(type == 1):
+        play = raw_input("Enter your score frame by frame seperated by a comma.")
+if(type == 2):
+	frame = 1
+	while(frame < 11):
+		print("entering row " + str(frame))
+		score = raw_input("Enter the total points.")
+		row = 1
+		while(row < 11):
+			score2 = score + row
+		frame = frame + 1
+	totalsafe = safe1 + safe2 +safe3 + safe4 + safe5 + safe6 + safe7 + safe8 + safe9 + safe10
+	print("totalsafe")
+
+
+
+
+
